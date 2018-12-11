@@ -23,6 +23,7 @@ public class IndexTest {
     @Test
     public void test(){
         int aa = 11;
+        int bb = 12;
         // 创建客户端连接对象
         TransportClient client = EsUtil.createTransportClient();
         // 创建索引
